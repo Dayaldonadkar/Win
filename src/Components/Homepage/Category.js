@@ -2,8 +2,8 @@ import React from "react";
 
 const Category = () => {
   return (
-    <div className="flex justify-center  ">
-      <div className="flex justify-between w-9/12">
+    <div className="flex justify-center py-5 dark:bg-gradient-to-r from-gray-700 via-gray-900 to-black ">
+      <div className="flex justify-between w-10/12">
         <div>
           <img src="./Electronics.png" alt="laptop" />
         </div>

@@ -7,7 +7,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 const Browse = () => {
   return (
-    <div className="flex justify-center bg-[#0E3B3E] text-white">
+    <div className="flex justify-center bg-[#0E3B3E] text-white dark:bg-slate-900">
       <div className=" flex justify-between w-11/12 py-4">
         <div className="flex text-sm items-center space-x-5">
           <MenuIcon className="" />

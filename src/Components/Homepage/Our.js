@@ -8,7 +8,7 @@ import Card4 from "./Card4";
 
 const Our = () => {
   return (
-    <div className="flex justify-center bg-[#F6F6F6]">
+    <div className="flex justify-center bg-[#F6F6F6] dark:bg-slate-900 dark:text-white py-5">
       <div className="w-9/12 pt-6">
         <div className="flex justify-between pb-10">
           <div>

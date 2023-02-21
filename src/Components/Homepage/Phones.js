@@ -4,13 +4,13 @@ import Card8 from "./Card8";
 const Phones = () => {
   return (
     <>
-      <div className="flex justify-center bg-[#F5F5F5] py-10 mt-20">
+      <div className="flex justify-center bg-[#F5F5F5] py-10 mt-20 dark:bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 dark:text-white">
         <h1 className="text-5xl">
           <span className="text-[#00CAD7]">New</span> Arrivals
         </h1>
       </div>
-      <div className="flex justify-center bg-gradient-to-r from-purple-600 to-blue-600 py-10">
-        <div className="flex justify-between w-10/12">
+      <div className="flex justify-center bg-gradient-to-r from-purple-600 to-blue-600 py-10 dark:bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900">
+        <div className="flex justify-between w-10/12 space-x-10">
           <Card8
             img={"Watch3.png"}
             price={"Rs.64202"}

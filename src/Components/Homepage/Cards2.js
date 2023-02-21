@@ -3,8 +3,8 @@ import React from "react";
 const Cards2 = ({ Name, img, price1, price2 }) => {
   return (
     <div>
-      <div className=" px-6 py-2 space-y-1 bg-white">
-        <h1 className="text-xs">Bin Bakar Electronics</h1>
+      <div className=" px-6 py-2 space-y-1 bg-white rounded-lg">
+        <h1 className="text-xs dark:text-black">Bin Bakar Electronics</h1>
         <p className="text-[#034E53] text-sm">{Name}</p>
         <img src={img} alt="Televison" />
         <p className="space-x-2">

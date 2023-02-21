@@ -3,7 +3,7 @@ import Card9 from "./Card9";
 
 const Featured = () => {
   return (
-    <div className="flex justify-center py-10 bg-white">
+    <div className="flex justify-center py-10 bg-white dark:bg-slate-900 dark:text-white">
       <div className="w-8/12 flex justify-between ">
         <div className="">
           <h1 className="text-2xl border-b border-[#C82020] pb-2">

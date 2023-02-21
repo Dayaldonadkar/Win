@@ -11,10 +11,10 @@ const Navbar = () => {
     <div className="flex justify-center bg-[#03484D]">
       <div className=" flex text-white items-center justify-between py-3 w-11/12">
         <img src="Winlogo.png" alt="winlogo" />
-        <div className="bg-white rounded-md">
+        <div className="bg-white rounded-md dark:bg-slate-70 dark:bg-slate-900">
           <select
             name="Categories"
-            className="h-10 text-xs bg-white text-[#ABA3A3] px-7 rounded-md"
+            className="h-10 text-xs bg-white text-[#ABA3A3] px-7 rounded-md dark:bg-slate-900"
           >
             <option className="" value="All categories">
               All Categories
@@ -25,18 +25,18 @@ const Navbar = () => {
           </select>
 
           <input
-            className="h-10 w-96 placeholder:pl-10 text-base"
+            className="h-10 w-96 placeholder:pl-10 text-base dark:bg-slate-900"
             type="text"
             placeholder="Search for products"
           />
           <SearchIcon />
         </div>
-        <div className="text-xs space-y-1">
+        <div className="text-xs space-y-1 dark:text-amber-700">
           <p className="items center">
             <AirportShuttleIcon fontSize="small" className="text-white" />
             Orders and Tracking
           </p>
-          <div className="flex items-center">
+          <div className="flex items-center  dark:text-amber-700">
             <img className="w-4 h-3" src="Pakistan.png" />
             <p>Delivery in Pakistan</p>
           </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <p>Return</p>
           </div>
         </div>
-        <div className="text-xs space-y-1">
+        <div className="text-xs space-y-1  dark:text-amber-700">
           <p>Call Now</p>
           <p className="text-sm">
             <HeadsetIcon />

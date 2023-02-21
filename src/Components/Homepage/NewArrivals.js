@@ -3,10 +3,10 @@ import Cards from "../Cards";
 
 const NewArrivals = () => {
   return (
-    <div className="flex justify-center py-12">
+    <div className="flex justify-center py-12 dark:bg-slate-500">
       <div className="w-10/12">
         <div className="flex justify-between">
-          <h1 className="text-3xl">
+          <h1 className="text-3xl dark:text-white">
             <span className="text-[#18A4E8] pr-4">New</span>Arrivals
           </h1>
           <p className="text-xl text-[#18A4E8]">End in: 08 08 08 08</p>
