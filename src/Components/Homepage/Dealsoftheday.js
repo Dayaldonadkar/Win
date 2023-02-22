@@ -2,7 +2,7 @@ import React from "react";
 
 const Dealsoftheday = () => {
   return (
-    <div className="flex justify-center bg-[#F6F6F6] py-10 dark:bg-slate-600">
+    <div className="flex justify-center bg-[#F6F6F6] py-10 dark:bg-slate-900">
       <div className="w-10/12 flex justify-between">
         <div className="text-4xl w-3/12 space-y-10">
           <div>
@@ -23,7 +23,7 @@ const Dealsoftheday = () => {
         </div>
 
         <div className="flex space-x-28">
-          <div className="relative bg-white font-light py-3 pl-3 shadow-slate-600 shadow-lg rounded-lg">
+          <div className="relative bg-white font-light py-3 pl-3 shadow-slate-900 shadow-lg rounded-lg">
             <img className="dark:" src="Iphone.png" alt="" />
             <div className="absolute bottom-0 right-5">
               <h1 className="text-[#15ADB7] ">Add to Cart</h1>

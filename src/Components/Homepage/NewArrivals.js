@@ -3,7 +3,7 @@ import Cards from "../Cards";
 
 const NewArrivals = () => {
   return (
-    <div className="flex justify-center py-12 dark:bg-slate-500">
+    <div className="flex justify-center py-12 dark:bg-slate-800 dark:text-white">
       <div className="w-10/12">
         <div className="flex justify-between">
           <h1 className="text-3xl dark:text-white">

@@ -8,7 +8,7 @@ import Card6 from "./Card6";
 
 const Best = () => {
   return (
-    <div className="flex justify-center bg-[#F6F6F6] py-20">
+    <div className="flex justify-center bg-[#F6F6F6] py-20 dark:bg-slate-900 dark:text-white">
       <div className="w-9/12">
         <div className="flex justify-between">
           <h1 className="text-3xl pb-10">
@@ -31,7 +31,7 @@ const Best = () => {
           </div>
         </div>
 
-        <div className="flex justify-between">
+        <div className="flex justify-between dark:text-black">
           <div className="space-y-1">
             <Card3 img={"Laptop2.png"} />
             <Card6 img={"Headphone2.png"} />

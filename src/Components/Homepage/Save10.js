@@ -3,16 +3,16 @@ import Card7 from "./Card7";
 
 const Save10 = () => {
   return (
-    <div className="flex justify-center my-10">
-      <div className="w-8/12 flex flex-col justify-end space-x-20">
+    <div className="flex justify-center my-10 dark:bg-slate-900">
+      <div className="w-8/12 flex flex-col justify-end space-x-20 ">
         <div className="">
-          <button className="bg-[#483D3D]  origin-top-left rotate-90 py-3 px-48 text-white text-xl">
+          <button className="bg-[#483D3D]  origin-top-left rotate-90 py-3 px-48 text-white text-xl dark:text-white">
             Save 10%
           </button>
         </div>
 
         <div className="flex ">
-          <div className="-mt-10">
+          <div className="">
             <div className="flex space-x-20">
               <Card7 img={"Save1.png"} price={"Rs.270"} />
               <Card7 img={"Save2.png"} price={"Rs.270"} />

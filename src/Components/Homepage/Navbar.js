@@ -8,7 +8,7 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-center bg-[#03484D]">
+    <div className="flex justify-center bg-[#03484D] dark:bg-slate-900">
       <div className=" flex text-white items-center justify-between py-3 w-11/12">
         <img src="Winlogo.png" alt="winlogo" />
         <div className="bg-white rounded-md dark:bg-slate-70 dark:bg-slate-900">
