@@ -2,7 +2,7 @@ import React from "react";
 
 const Card3 = ({ img }) => {
   return (
-    <div className="flex bg-white h-5/12 p-7 space-x-14">
+    <div className="flex bg-white h-5/12 p-7 space-x-14 rounded-xl">
       <div className="space-y-2">
         <h1 className="text-lg">Nintendo Switch</h1>
         <h1 className="text-lg">Console </h1>
@@ -18,7 +18,7 @@ const Card3 = ({ img }) => {
           <h1 className="text-[#00CAD7]">Special</h1>
           <h1>Offer</h1>
         </div>
-        <img className="h-28" src={img} />
+        <img className="h-28 rounded-xl" src={img} />
       </div>
     </div>
   );

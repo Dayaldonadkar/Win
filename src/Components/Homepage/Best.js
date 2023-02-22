@@ -8,7 +8,7 @@ import Card6 from "./Card6";
 
 const Best = () => {
   return (
-    <div className="flex justify-center bg-[#F6F6F6] py-20 dark:bg-slate-900 dark:text-white">
+    <div className="flex justify-center bg-[#F6F6F6] py-32 dark:bg-slate-800 dark:text-white">
       <div className="w-9/12">
         <div className="flex justify-between">
           <h1 className="text-3xl pb-10">

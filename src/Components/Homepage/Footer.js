@@ -7,7 +7,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 const Footer = () => {
   return (
     <>
-      <div className="flex justify-center bg-[#393939] pt-16">
+      <div className="flex justify-center bg-[#393939] pt-16 dark:bg-slate-800">
         <div className="w-10/12 space-y-3 flex justify-around">
           <div className="space-y-5">
             <div className="flex items-center text-xl space-x-2">
@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-center bg-[#393939] pt-10">
+      <div className="flex justify-center bg-[#393939] pt-10 dark:bg-slate-800">
         <div className="flex w-8/12 justify-end space-x-3">
           <img
             className="bg-white h-14 px-2 py-3 w-20 rounded-xl"

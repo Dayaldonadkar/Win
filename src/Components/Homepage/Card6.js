@@ -2,7 +2,7 @@ import React from "react";
 
 const Card6 = ({ img }) => {
   return (
-    <div className="flex bg-white h-5/12 p-7 space-x-14">
+    <div className="flex bg-white h-5/12 p-7 space-x-14 rounded-lg">
       <div className="space-y-2">
         <div className="space-y-6">
           <div className="text-4xl text-center">

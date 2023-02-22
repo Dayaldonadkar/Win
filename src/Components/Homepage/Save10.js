@@ -3,10 +3,10 @@ import Card7 from "./Card7";
 
 const Save10 = () => {
   return (
-    <div className="flex justify-center my-10 dark:bg-slate-900">
+    <div className="flex justify-center dark:bg-slate-900 py-20">
       <div className="w-8/12 flex flex-col justify-end space-x-20 ">
         <div className="">
-          <button className="bg-[#483D3D]  origin-top-left rotate-90 py-3 px-48 text-white text-xl dark:text-white">
+          <button className="bg-[#483D3D]  origin-top-left rotate-90 py-3 px-48 text-white text-xl">
             Save 10%
           </button>
         </div>

@@ -2,8 +2,8 @@ import React from "react";
 
 const Card9 = ({ img, name, seller, old, price }) => {
   return (
-    <div className="flex items-center py-7 space-x-6">
-      <img src={img} />
+    <div className="flex items-center py-7 space-x-6 rounded-lg">
+      <img className="rounded-xl" src={img} />
 
       <div className="space-y-2">
         <h1 className="text-xs">{seller}</h1>
